@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "name": "todolistappwithauthentication",
+  "version": "1.0.0",
+  "description": "This is the todo list app ",
+  "main": "todoSever.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishkumar90244/TodoListAppWithAuthentication.git"
+  },
+  "author": "Ashish Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishkumar90244/TodoListAppWithAuthentication/issues"
+  },
+  "homepage": "https://github.com/ashishkumar90244/TodoListAppWithAuthentication#readme"
+}

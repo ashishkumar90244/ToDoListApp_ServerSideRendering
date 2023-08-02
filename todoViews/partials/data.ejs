@@ -1,0 +1,9 @@
+
+<% todos.forEach(function(todo){ %>
+    <tr style="background-color:azure;" id="tr">
+        <td><%= todo.todoContent %></td>
+        <td> <input type="checkbox" id="updateStatus" onchange="updateStatus('<%= JSON.stringify(todo) %>',this)">  </td>
+        <td> <button id="btn" onclick="deleteRow(this,'<%= JSON.stringify(todo) %>')">x</button> </td>
+        
+    </tr>
+<% }) %>
