@@ -291,7 +291,9 @@ app.post('/register', function(req, res){
     
 });
 
-app.listen(3000,'0.0.0.0',()=>{
+const port = process.env.port;
+
+app.listen(port,()=>{
     console.log('listening at the port 3000');
 })
 
